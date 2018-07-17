@@ -37,3 +37,13 @@ function min(numbers) {
   return smallestNum; 
 }
 min([2, 5, 6, 1, 7]);
+
+function average (numbers) {
+  let sum = 0;
+  numbers.forEach(function(num) {
+    sum+=num;
+  });
+  return sum/numbers.length;
+}
+
+average([1,2,3]);
